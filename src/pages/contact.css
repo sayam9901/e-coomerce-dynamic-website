@@ -1,0 +1,39 @@
+.about-page {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('https://prasadyash2411.github.io/ecom-website/img/Album%204.png');
+    background-size: cover;
+    background-position: center;
+    opacity: 1;
+    z-index: -1;
+  }
+  
+  .content {
+    padding: 20px;
+    z-index: 1;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
