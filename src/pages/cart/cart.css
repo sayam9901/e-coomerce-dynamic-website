@@ -18,6 +18,10 @@
   
   .cartItem img {
     width: 200px;
+    transition: transform 0.2s;
+  }
+  .cartItem img:hover {
+    transform: scale(1.1); /* Zoom in by 10% on hover */
   }
   
   .cartItem .description {
