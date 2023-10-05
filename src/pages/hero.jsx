@@ -1,5 +1,6 @@
 import React from "react";
 import "./hero.css"
+import { Navbar } from "../components/navbar";
 
 const Data = [
   {
@@ -15,6 +16,7 @@ const Data = [
 
 export const Hero = () => {
   return (
+    <div><Navbar/>
     <div className="container">
       <div>
         <h1>GET OUR LATEST ALBUM</h1>
@@ -29,6 +31,7 @@ export const Hero = () => {
           </li>
         ))}
       </ul>
+    </div>
     </div>
   );
 };

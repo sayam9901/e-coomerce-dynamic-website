@@ -1,5 +1,6 @@
 import React , {useState} from "react";
 import "./listen.css"
+import { Navbar } from "../../components/navbar";
 export const Listen = () => {
     const [user , setUser] = useState(
         {
@@ -45,6 +46,7 @@ export const Listen = () => {
     }
   return (
     <div>
+      <Navbar/>
          <h1>Contact Us</h1>
       {submitted ? (
         <p>Thank you for contacting us! We will get back to you soon.</p>

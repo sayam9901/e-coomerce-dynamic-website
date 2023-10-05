@@ -1,9 +1,13 @@
 import React from "react";
 import "./contact.css";
+import { Navbar } from "../components/navbar";
 
 export const Contact = () => {
   return (
+    <div>
+      <Navbar/>
     <div className="about-page">
+      
     <div className="background-image"></div>
     <div className="content">
       <h1>About Us</h1>
@@ -24,6 +28,7 @@ export const Contact = () => {
         facilisis.
       </p>
     </div>
+  </div>
   </div>
   );
 };
